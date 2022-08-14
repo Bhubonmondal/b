@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title> Learn HTML</title>
+       <link rel ="icon" href="htmlLogo.png" >
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div id="navBar">
+              <div class="heading">
+                     <h1 id="headingTitle">Learn HTML </h1>
+              </div>
+              <div class="socialLinks">
+                     <input type="text" id="mySearchBar" onmouseout="normalsearchmenu()" onfocus="incresesearchmenu()">
+                     <img src="searchMagnifyGlass.png" id="MagnifyGlassLogo" onclick="showMySearchBar()">
+                     <a href="https://www.facebook.com/" target="_blank"><img src="facebookLogo.png" id="facbookLogo"></a>   
+                     <a href="https://www.youtube.com/" target="_blank"><img src="youtubeLogo.png" id="youbookLogo"></a>
+                     <a href="https://www.instagram.com/" target="_blank"><img src="instagramLogo.png" id="instagramLogo"></a>  
+              </div>
+              <div class="navigationMenu">
+                     <a href="index.html" id="websiteLogo">HTML</a>
+                     <a href="#homeHTML" id="home" onclick="showHomepage()">Home</a>
+                     <a href="#contactHTML" id="contact" onclick="showContactPage()">Contact</a>
+                     <a href="#aboutHTML" id="about" onclick="showAboutPage()">About</a>
+                     <a href="#feedbackHTML" id="feedback" onclick="showFeedbackPage()">Feedback</a>
+              </div>
+       </div>
+       <div id="mainbody">
+              <div id="mainLeftPart">
+                            <li><a href="index.html">Learn HTML</a></li>
+                            <li><a href="css.html">Learn CSS</a></li>
+                            <li><a href="javascript.html">Learn Javascript</a></li>
+                            <li><a href="bootstrap.html">Learn Bootstrap</a></li>
+                            <li><a href="react.html">Learn React</a></li>
+                            <li><a href="tailwind.html">Learn Tailwind</a></li>
+                            <li><a href="angular.html">Learn Angular</a></li>
+                            <li><a href="vu.html">Learn Vu</a></li>
+                            <li><a href="java.html">Learn Java</a></li>
+                            <li><a href="python.html">Learn Python</a></li>
+              </div>
+              <div id="mainCentralPart">
+                     <div id="controls">
+                            <button id="bengaliButton" onclick="showBengaliContent()">বাংলা</button>
+                            <button id="englishButton" onclick="showEnglishContent()">English</button>
+                     </div>
+                     <div id="content">
+                            <div id="englishContent">
+                                   <h2>About HTML</h2>
+                                   <p>
+                                          HTML stands for Hyper Text Markup Language it is a language for specifying how text and graphics appear on a web page, in simple word it is the standard markup language for creating Web pages, HTML describes the structure of a Web page, web browser retrieves the HTML web page and renders it accordingly the first version of HTML was written by Tim Berners-Lee in 1993.
+                                   </p>
+                                   <h2>HTML versions and released date</h2>
+                                   <table>
+                                          <tr>
+                                                 <th>Version Id</th>
+                                                 <th>Release Date</th>
+                                          </tr>
+                                          <tbody>
+                                                 <td>HTML</td>
+                                                 <td>1993</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML 2</td>
+                                                 <td>1995</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML 3</td>
+                                                 <td>1997</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML 4</td>
+                                                 <td>2000</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML 5</td>
+                                                 <td>2014</td>
+                                          </tbody>
+                                   </table>
+                                   <h2>Sample HTML Code</h2>
+                     
+       <pre>
+       <span><</span>!DOCTYPE <span>html></span>
+              <span><</span><span>html</span><span>></span>
+                     <span><</span><span>head</span><span>></span>
+                            <span><</span><span>title</span><span>></span><span>Website title goes here</span><span><</span><span>/title</span><span>></span>
+                     <span><</span><span>/head</span><span>></span>
+                     <span><</span><span>body</span><span>></span>
+                            <span>//your code goes here</span>
+                     <span><</span><span>/body</span><span>></span>
+              <span><</span><span>/html</span><span>></span>
+       </pre>
+                                   <h2>Some Basic HTML tags & their use</h2>
+                            <table>
+                                   <tr>
+                                          <th>Tag name</th>
+                                          <th>How to Implement</th>
+                                          <th>Explanation</th>
+                                   </tr>
+                                   <tbody>
+                                          <td>h1, h2, h3... h6 tags</td>
+                                          <td><span><</span>h1<span>>  </span>  <span><</span>/h1<span>>  </span></td>
+                                          <td>The h1 to h6 tags are used to define HTML headings.</td>
+                                   </tbody>
+                                   <tbody>
+                                          <td>p tag</td>
+                                          <td><span><</span>p<span>>  </span>  <span><</span>/p<span>>  </span></td>
+                                          <td>The p tag defines a paragraph.</td>
+                                   </tbody>
+                                   <tbody>
+                                          <td>a tag</td>
+                                          <td><span><</span>a<span>>  </span>  <span><</span>/a<span>>  </span></td>
+                                          <td>The a tag defines a hyperlink, which is used to link from one page to another.</td>
+                                   </tbody>
+                                   <tbody>
+                                          <td>div tag</td>
+                                          <td><span><</span>div<span>>  </span>  <span><</span>/div<span>>  </span></td>
+                                          <td>The div tag defines a division or a section in an HTML document.</td>
+                                   </tbody>
+                            </table>
+                                                 
+                            </div>
+                            <div id="bengaliContent">
+                                   <h3>HTML এর সম্বন্ধে</h3>
+                                   <p> HTML এর পুরো কথাটি হল Hyper Text Markup Language এটি ওয়েবপেজে টেস্কট এবং গ্রাফিক্স কীভাবে দেখাবে তা নির্দিষ্ট করার জন্য একটি ভাষা, এক কথায় ওয়েবপেজ তৈরি করার জন্য চিহ্নিত করার ভাষা, HTML একটি ওয়েব পেজের গঠন বর্ণনা করে, ব্রাউজার HTML নিয়মাবলীকে সাজিয়ে এবং সেই অনুযায়ী ওয়েব পেজকে রেন্ডার করে</p>
+                                   <h3>HTML অনুক্রম এবং প্রকাশের তারিখগুলি</h3>
+                                   <table>
+                                          <tr>
+                                                 <th> অনুক্রম আইডি</th>
+                                                 <th> প্রকাশের তারিখ</th>
+                                          </tr>
+                                          <tbody>
+                                                 <td>HTML</td>
+                                                 <td>১৯৯৩</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML ২</td>
+                                                 <td>১৯৯৫</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML ৩</td>
+                                                 <td>১৯৯৭</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML ৪</td>
+                                                 <td>২০০০</td>
+                                          </tbody>
+                                          <tbody>
+                                                 <td>HTML ৫</td>
+                                                 <td>২০১৪</td>
+                                          </tbody>
+                                   </table>
+                                   <h3>স্যাম্পেল HTML code</h3>
+       <pre>
+       <span><</span>!DOCTYPE <span>html></span>
+              <span><</span><span>html</span><span>></span>
+                     <span><</span><span>head</span><span>></span>
+                            <span><</span><span>title</span><span>></span><span>Website title goes here</span><span><</span><span>/title</span><span>></span>
+                     <span><</span><span>/head</span><span>></span>
+                     <span><</span><span>body</span><span>></span>
+                            <span>//your code goes here</span>
+                     <span><</span><span>/body</span><span>></span>
+              <span><</span><span>/html</span><span>></span> </pre>
+       
+                            <h3>কিছু সাধারণ HTML ট্যাগ এবং তাদের ব্যবহার</h3>
+                            <table>
+                                   <tr>
+                                          <th>ট্যাগের নাম</th>
+                                          <th>কিভাবে বাস্তবায়ন করা হয়</th>
+                                          <th>ব্যাখ্যা</th>
+                                   </tr>
+                                   <tbody>
+                                          <td>h1, h2, h3... h6 tags</td>
+                                          <td><span><</span>h1<span>>  </span>  <span><</span>/h1<span>>  </span></td>
+                                          <td>h1 থেকে h6 ট্যাগগুলি ব্যাবহিত হয় শিরোনাম লেখার ক্ষেত্রে।</td>
+                                   </tbody>
+                                   <tbody>
+                                          <td>p tag</td>
+                                          <td><span><</span>p<span>>  </span>  <span><</span>/p<span>>  </span></td>
+                                          <td>অনুচ্ছেদ লেখার ক্ষেত্রে p ট্যাগ ব্যাবহিত হয়।</td>
+                                   </tbody>
+                                   <tbody>
+                                          <td>a tag</td>
+                                          <td><span><</span>a<span>>  </span>  <span><</span>/a<span>>  </span></td>
+                                          <td>a বা অঙ্কার ট্যাগ একটি পেজের সাথে আর একটি পেজকে সংযুক্ত করতে ব্যাবহিত হয়।</td>
+                                   </tbody>
+                                   <tbody>
+                                          <td>div tag</td>
+                                          <td><span><</span>div<span>>  </span>  <span><</span>/div<span>>  </span></td>
+                                          <td>div ট্যাগ html ডকুমেন্টকে একটি বিভাগে পরিণত করতে ব্যাবহিত হয়।</td>
+                                   </tbody>
+                            </table>
+                            </div>
+                     </div>
+              </div>
+              <div id="mainRighPart">
+                     <div id="buttonrea">
+                            <div class="extraButtonLeftPart">
+                                   <button id="themeChangerID" onclick="showhovermenu()">Theme</button>
+                                   <div id="showTheMenu" onmouseleave="hidehovermenu()">
+                                          <li id="orange" onclick="orangebackground()">Orange</li>
+                                          <li id="voilet" onclick="bluevioletbackground()">Blue Violet</li>
+                                          <li id="cyan" onclick="darkcyanbackground()">Dark Cyan</li>
+                                   </div>
+                            </div>
+                           <div>
+                                   <button id="darkButton" onclick="darkThemeButton()">Dark Mode</button>
+                           </div> 
+                     </div>
+                     <div class="advertisementArea">
+                            
+                     </div>
+              </div>
+
+              <div id="aboutHTML">
+                     <div id="containthemeanddarkbutton">
+                            <div>
+                                   <button id="themeID" onclick="showmoremenu()">Theme</button>
+                                   <button id="aboutDarkButton" onclick="darkThemeButton()">Dark Mode</button>
+                                   <div id="showMoreThemes" onmouseleave="hidemoremenu()">
+                                          <li id="orange" onclick="orangebackground()">Orange</li>
+                                          <li id="voilet" onclick="bluevioletbackground()">Blue Voilet</li>
+                                          <li id="cyan" onclick="darkcyanbackground()">Dark Cyan</li>
+                                   </div>
+                            </div>            
+                     </div>
+                     <br>
+                     <p>Learn HTML is example oriented website for learing html, css, Javascript, where you can learn from vivid type of example, learing with practical method is easy
+                            to understandable and easy to remember.
+                     </p>
+                     <pre>
+                            Made by: Bhuban Mondal
+                            Roll no: 30001221051
+                            Regn No: 213001001210051
+                     </pre>
+                     
+              </div>
+
+              <div id="contactHTML">
+                     <div id="containthemeanddarkbutton">
+                            <div>
+                                   <button id="themechangecolorID" onclick="showthreemoremenu()">Theme</button>
+                                   <button id="darkButtonContact" onclick="darkThemeButton()">Dark Mode</button>
+                                   <div id="showthreeMoreThemes" onmouseleave="hidethreemoremenu()">
+                                          <li id="orange" onclick="orangebackground()">Orange</li>
+                                          <li id="voilet" onclick="bluevioletbackground()">Blue Voilet</li>
+                                          <li id="cyan" onclick="darkcyanbackground()">Dark Cyan</li>
+                                   </div>
+                            </div>            
+                     </div>
+                     <div id="container">
+                            <h1 style="text-align: center;" id="contactUsTag">Contact Us</h1>
+                            <form id="contactUsForm">
+                                   <label id="name">Enter name:</label>
+                                   <input type="text" id="nameinput" placeholder="Bhubon Mondal"><br>
+                                   <label id="phoneNo">Phone no:</label>
+                                   <input type="number" id="phoneNoInput" maxlength="10" placeholder="9007892097"><br>
+                                   <label for="emailId" id="emailIdInput">Email id:</label>
+                                   <input type="email" id="emailId" placeholder="bhubonmondal@gmail.com"><br>
+                                   <label id="Describe">Describe:</label>
+                                   <textarea id="describeArea" cols="30" rows="2">Hey there! </textarea><br>
+                                   <input type="submit" value="Submit" id="contactUsSubmit" onclick="submitButton()">
+                            </form>
+                     </div>
+              </div>
+              <div id="feedbackHTML">
+                     <div id="feedbackdivcontainer">
+                            <div>
+                                   <button id="themechangecolorIDfeedback" onclick="showfeedbackmoremenu()">Theme</button>
+                                   <button id="darkButtonContactfeedback" onclick="darkThemeButton()">Dark Mode</button>
+                                   <div id="showthreeMoreThemesfeedback" onmouseleave="hidefeedbackmoremenu()">
+                                          <li id="orange" onclick="orangebackground()">Orange</li>
+                                          <li id="voilet" onclick="bluevioletbackground()">Blue Voilet</li>
+                                          <li id="cyan" onclick="darkcyanbackground()">Dark Cyan</li>
+                                   </div>
+                            </div>   
+                     </div>
+                     <div id="thankYouContainer">
+                            <h2>Thank You For Visiting Learn HTML</h2>
+                            <p>Please grade us to grow us fast & provide you better services</p>
+                           
+                            <form id="feedbackForm">
+                                   <div id="html5star">
+                                          <span id="htmlStar1" onclick="htmlStar1s()">&#9733;</span>
+                                          <span id="htmlStar2" onclick="htmlStar2s()">&#9733;</span>
+                                          <span id="htmlStar3" onclick="htmlStar3s()">&#9733;</span>
+                                          <span id="htmlStar4" onclick="htmlStar4s()">&#9733;</span>
+                                          <span id="htmlStar5" onclick="htmlStar5s()">&#9733;</span>
+                                   </div>
+                                   <p>Enter your name: <input type="text" id="inputername"></p>
+                                   <p>Your suggestion: <textarea id="inputersuggestion" cols="30" rows="10"></textarea></p> 
+                                   <input type="submit" value="Submit" id="feedbackSubmitId" onclick="feedbackSubmit()">
+                            </form>
+                     </div>
+              </div>
+       </div>
+
+       <div id="fotterSection">
+             <p>Learn HTML</p>
+             <p>Copyright © 2022 Learn HTML, inc.</p> 
+       </div>
+
+       <script src="script.js"></script>
+</body>
+</html>

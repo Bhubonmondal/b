@@ -1,0 +1,565 @@
+*{
+       margin: 0%;
+}
+body{
+       display: flex;
+       flex-direction: column;
+       width: 100wh;
+       height: 100vh;
+       outline: auto;
+}
+/*part 1 width, height*/
+#navBar{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       width: 100%;
+       height: 15vh;
+       background-color: blueviolet;
+}
+/*part 1*/
+.heading{
+       display: flex;
+       width: 50%;
+       height: 50%;  
+       justify-content: end;
+       align-items: center;
+       color: #fff;
+       cursor: default;
+}
+
+/*part 2 width, height*/
+.socialLinks{
+       display: flex;
+       width: 50%;
+       height: 50%;  
+       justify-content: end;
+       align-items: center;
+}
+/*part 2*/
+#mySearchBar{
+       display: none;
+       background-color: transparent;
+       border: transparent;
+       width: 200px;
+       height: 35px;
+       outline: none;
+       transition: 0.5s;
+       margin: 0px 3px 0px 0px;
+       padding: 0px 15px 0px 15px;
+}
+#mySearchBar:focus{
+       width: 300px;
+       height: 35px;
+}
+
+#MagnifyGlassLogo{
+       width: 40px;
+       height: 39px;
+       margin-right: 10px;
+}
+#MagnifyGlassLogo:hover{
+       width: 45px;
+       height: 45px;
+}
+#facbookLogo{
+       width: 45px;
+       height: 45px;
+       margin-right: 10px;  
+}
+#facbookLogo:hover{
+       width: 50px;
+       height: 50px;  
+}
+#youbookLogo{
+       width: 45px;
+       height: 45px;
+       margin-right: 10px;
+}
+#youbookLogo:hover{
+       width: 50px;
+       height: 50px;
+}
+#instagramLogo{
+       width: 45px;
+       height: 45px;
+       margin-right: 10px;
+}
+#instagramLogo:hover{
+       width: 50px;
+       height: 50px;
+}
+
+/*part 3 width, height*/
+.navigationMenu{
+       width: 80%;
+       height: 50%;
+       display: flex;
+       justify-content: start;
+       align-items: center;
+}
+/*part 3*/
+#websiteLogo{
+       text-decoration: none;
+       cursor: default;
+       font-family: fantasy;
+       font-size: larger;
+       padding: 5px;
+       border: double;
+       margin-left: 3%;
+       color: #fff;
+}
+#home{
+       text-decoration: none;
+       margin-left: 10%;
+       font-size: larger;
+       color: #fff;
+}
+#home:hover{
+       color: #fff;
+}
+#contact{
+       text-decoration: none;
+       margin-left: 100px;
+       font-size: larger;
+       color: #fff;
+}
+#about{
+       text-decoration: none;
+       margin-left: 100px;
+       font-size: larger;
+       color: #fff;
+}
+#feedback{
+       text-decoration: none;
+       margin-left: 100px;
+       font-size: larger;
+       color: #fff;
+}
+/*part 4 width, height*/
+.extraButton{
+       width: 20%;
+       height: 150%;
+       display: flex;
+       justify-content: center;
+       align-items: flex-start;
+}
+/*part 4*/
+.extraButtonLeftPart{
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       align-items: center;
+       width: 50%;
+       height: 100%;
+}
+
+/*Part 5 width and height*/
+#mainbody{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       width: 100wh;
+       height: 80%;
+}
+/*Part 5*/
+#mainLeftPart{
+       display: flex;
+       flex-direction: column;
+       width: 20%;
+       height: 100%;
+}
+/*Part 6*/
+#mainCentralPart{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       width: 60%;
+       height: 80%;
+}
+#controls{
+       display: flex;
+       width: 100%;
+       height: 10%;
+       justify-content: center;
+       align-items: center;
+}
+#bengaliButton{
+       width: 20%;
+       height: 50%;
+       border: 0px;
+       border-radius: 1rem 0px 0px 1rem;
+       filter: drop-shadow(2px 2px 1px grey);
+}
+#bengaliButton:focus{
+       width: 20%;
+       height: 50%;
+       border: 0px;
+       background-color: #fff;
+       border-radius: 1rem 0px 0px 1rem;
+       filter: drop-shadow(2px 2px 3px grey);
+}
+#englishButton{
+       width: 20%;
+       height: 50%;
+       border: 0px;
+       border-radius: 0px 1rem 1rem 0px;
+       filter: drop-shadow(2px 2px 1px grey);
+}
+#englishButton:focus{
+       width: 20%;
+       height: 50%;
+       border: 0px;
+       background-color: #fff;
+       border-radius:  0px 1rem 1rem 0px;
+       filter: drop-shadow(2px 2px 3px grey);
+}
+#content{
+       padding: 10px;
+       width: 100%;
+       height: 90%;
+       display: flex;
+       flex-direction: column;
+}
+table, td, th {
+       border: 1px solid;
+       text-align: center;
+     }
+table{
+       width: 100%;
+       border-collapse: collapse;
+     }
+
+#bengaliContent{
+       display: none;
+       flex-direction: column;
+     }
+#englishContent{
+       display: flex;
+       flex-direction: column;
+}
+/*Part 7*/
+#mainRighPart{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 20%;
+       height: 99%;
+}
+li a{
+       text-decoration: none;
+       padding-left: 3%;
+}
+
+#buttonrea{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: stretch;
+       width: 100%;
+       height: 10%;
+}
+#themeChangerID{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+}
+#themeChangerID:hover{
+       background-color: rgb(236, 236, 236);
+       color: #fff;
+       filter: drop-shadow(1px 1px 1px black);
+}
+#showTheMenu{
+       display: none;
+       margin-top: 2px;
+}
+div li{
+       list-style: none;
+       cursor: default;
+       padding: 10px 30px 10px 30px;
+}
+
+#orange:hover{
+       background-color: #ccc;
+}
+#voilet:hover{
+       background-color: #ccc;
+}
+#cyan:hover{
+       background-color: #ccc;
+}
+#darkButton{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+}
+#darkButton:hover{
+       background-color: rgb(236, 236, 236);
+       color: #fff;
+       filter: drop-shadow(1px 1px 1px black);
+}
+/*Part 8 width and height*/
+#fotterSection{
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 5%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       background-color: blueviolet;
+       color: #fff;
+}
+
+/*part 9 width and height*/
+#aboutHTML{
+       display: none;
+       flex-wrap: wrap;
+       flex-direction: row;
+       width: 80%;
+       height: 100%;
+       justify-content: flex-start;
+       align-items: flex-start;
+}
+#aboutHTML p{
+       padding: 20px;
+}
+#contactHTML{
+       display: none;
+       flex-wrap: wrap;
+       flex-direction: column;
+       width: 80%;
+       height: 100%;
+       align-items: center;
+}
+#containthemeanddarkbutton{
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       height: 20%;
+       align-items: flex-start;
+       justify-content: end;
+}
+#container{
+       position:sticky;
+       width: 50%;
+       height: 50%;
+       display: flex;
+       flex-direction: column;
+       align-items: left;
+       text-align: center;
+       background-color: blueviolet;
+       border-radius: 1rem;
+       padding: 10px;
+}
+#contactUsTag{
+       margin-bottom: 2%;
+}
+#nameinput{
+       width: 50%;
+       height: 15%;
+       margin-left: 3%;
+       text-transform: capitalize;
+       margin-bottom: 2%;
+       border-radius: 1rem;
+       border: 0px;
+       padding: 0px 10px 0px 10px;
+       outline: none;
+}
+#nameinput:focus{
+       outline: 2px solid palevioletred;
+}
+#phoneNoInput{
+       width: 50%;
+       height: 15%;
+       margin-left: 5%;
+       margin-bottom: 2%;
+       border-radius: 1rem;
+       border: 0px;
+       padding: 0px 10px 0px 10px;
+       outline: none;
+}
+#phoneNoInput:focus{
+       outline: 2px solid palevioletred;
+}
+#emailId{
+       width: 50%;
+       height: 15%;
+       margin-left: 6%;
+       margin-bottom: 2%;
+       border-radius: 1rem;
+       border: 0px;
+       padding: 0px 10px 0px 10px;
+       outline: none;
+}
+#emailId:focus{
+       outline: 2px solid palevioletred;
+}
+#describeArea{
+       width: 50%;
+       height: 35%;
+       margin-left: 5.5%;
+       margin-bottom: 2%;
+       border-radius: 1rem;
+       border: 0px;
+       padding: 5px 10px 0px 10px;
+       outline: none;
+       resize: none;
+}
+#describeArea:focus{
+       outline: 2px solid palevioletred;
+}
+#contactUsSubmit{
+       margin-left: 8%;
+       width: 25%;
+       height: 15%;
+}
+#showMoreThemes{
+       display: none;
+       margin-top: 2px;
+       width: 60%;
+}
+
+#themeID{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+
+}
+#aboutDarkButton{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+       margin-left: 26px;
+       margin-right: 30px;
+}
+#themechangecolorID{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+}
+#darkButtonContact{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+       margin-left: 26px;
+       margin-right: 30px;
+}
+#showthreeMoreThemes{
+       display: none;
+       margin-top: 2px;
+       width: 60%;
+}
+#showthreeMoreThemesfeedback{
+       display: none;
+       margin-top: 2px;
+       width: 60%;
+}
+#feedbackHTML{
+       display: none;
+       width: 80%;
+       height: 100%;
+       flex-direction: column;
+}
+#feedbackdivcontainer{
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       height: 10%;
+       align-items: flex-start;
+       justify-content: end;
+}
+#thankYouContainer{
+       display: flex;
+       flex-direction: column;
+       width: 80%;
+       height: 70%;
+       padding: 20px;
+}
+#themechangecolorIDfeedback{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+}
+#darkButtonContactfeedback{
+       width: 100px;
+       height: 30px;
+       background-color: #fff;
+       filter: drop-shadow(1px 1px 2px);
+       border: 0px solid;
+       padding: 7px;
+       border-radius: 2px;
+       margin-left: 26px;
+       margin-right: 30px;
+}
+#htmlStar1{
+       margin-left: 150px;
+       font-size: 50px;
+       cursor: default;
+       filter: drop-shadow(0px 0px 0px);
+}
+#htmlStar2{
+       font-size: 50px;
+       cursor: default;
+       filter: drop-shadow(0px 0px 0px);
+}
+#htmlStar3{
+       font-size: 50px;
+       cursor: default;
+       filter: drop-shadow(0px 0px 0px);
+}
+#htmlStar4{
+       font-size: 50px;
+       cursor: default;
+       filter: drop-shadow(0px 0px 0px);
+}
+#htmlStar5{
+       font-size: 50px;
+       cursor: default;
+       filter: drop-shadow(0px 0px 0px);
+}
+#inputername{
+       width: 300px;
+       height: 20px;
+       margin-bottom: 20px;
+}
+#inputersuggestion{
+       width: 300px;
+       height: 40px;
+       margin-left: 2px;
+       margin-top: 20px;
+}
+#feedbackSubmitId{
+       margin-top: 20px;
+       margin-left: 220px;
+}
