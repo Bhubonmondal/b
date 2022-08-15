@@ -563,3 +563,65 @@ div li{
        margin-top: 20px;
        margin-left: 220px;
 }
+@media only screen and (max-width: 1000px) {
+       #mainbody{
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: column;
+              width: 100wh;
+              height: 80%;
+       }
+       #mainLeftPart{
+              display: none;
+       }
+       #mainCentralPart{
+              width: 100%;
+              height: 80%;
+       }
+       #mainRighPart{
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              width: 100%;
+              height: 20%;
+              justify-content: flex-start;
+              align-items: center;
+       }
+       .extraButtonLeftPart{
+              width: 20%;
+       }
+       #headingTitle{
+              font-size: 50px;
+       }
+       #websiteLogo{
+              font-size: 40px;
+       }
+       #home{
+              font-size: 35px;
+       }
+       #contact{
+              font-size: 35px;
+       }
+       #about{
+              font-size: 35px;
+       }
+       #feedback{
+              font-size: 35px;
+       }
+       #socialLinks{
+              width: 30%;
+       }
+       #container{
+              width: 80%;
+              height: 40%;   
+       }
+       #contactHTML{
+             width: 100%; 
+       }
+       #aboutHTML{
+              width: 100%;
+       }
+       #feedbackHTML{
+              width: 100%;
+       }
+}
