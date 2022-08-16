@@ -624,4 +624,7 @@ div li{
        #feedbackHTML{
               width: 100%;
        }
+       #websiteLogo{
+              display: none;
+       }
 }
