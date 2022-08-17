@@ -231,10 +231,16 @@ table{
 #bengaliContent{
        display: none;
        flex-direction: column;
+        word-wrap: break-word;
+       flex-shrink: 0;
+       padding-bottom: 3%;
      }
 #englishContent{
        display: flex;
        flex-direction: column;
+       word-wrap: break-word;
+       flex-shrink: 0;
+       padding-bottom: 3%;
 }
 /*Part 7*/
 #mainRighPart{
