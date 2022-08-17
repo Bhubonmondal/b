@@ -159,6 +159,9 @@ body{
        flex-direction: row;
        width: 100wh;
        height: 80%;
+       word-wrap: break-word;
+       flex-shrink: 0;
+       padding-bottom: 3%;
 }
 /*Part 5*/
 #mainLeftPart{
