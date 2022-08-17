@@ -306,6 +306,7 @@ div li{
 }
 /*Part 8 width and height*/
 #fotterSection{
+       position: fixed;
        left: 0;
        bottom: 0;
        width: 100%;
